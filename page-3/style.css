@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #a2c5ef;
+}
+.header_container_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    gap: 20px;
+}
+.header_container_1 img {
+    max-width: 150px;
+    max-height: 150px;
+}
+.section-1-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 {
+    background-color: #e3e8eb;
+}
+.section-1-container-1-1 {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/v870-tang-35.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bg {
+    font-size: 36px;
+    text-align: center;
+}
+.section-1-1-item-group h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.section-1-1-item-group p {
+    max-width: 560px;
+}
+.section-1-1-item {
+    background-color: #c7d0ef;
+    width: 60%;
+    border-radius: 24px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section-1-1-item-group {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.section-1-container-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 15%;
+    padding-top: 30px;
+    background-color: #9aabf0;
+}
+.section-1-container-1-2 a {
+    display: flex;
+    justify-content: center;
+}
+.section-1-container-1-2 button {
+    background-color: #c7d0ef;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    width: 70%;
+    align-self: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section-1-container-1-2 button:hover {
+    background-color: #465ca8;
+    color: #fff;
+}
+.section-1-container-1-1-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.section-1-container-1-1-1 img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.section-1-1-item-group img {
+    max-width: 200px;
+}
+.section-1-1-item-group-1 {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
